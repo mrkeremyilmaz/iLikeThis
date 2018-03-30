@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_blue_dark"
+    tools:context="com.example.kerem.ilikethis.ShareActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/category0"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="12dp"
+                android:layout_marginStart="12dp"
+                android:layout_toLeftOf="@+id/bookBox"
+                android:layout_toStartOf="@+id/bookBox"
+                android:inputType="text"
+                android:onClick="onCategoryClick"
+                android:text="Books" />
+
+            <CheckBox
+                android:id="@+id/bookBox"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_above="@+id/category1"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginEnd="11dp"
+                android:layout_marginRight="11dp"
+                android:text="Choose" />
+
+            <Button
+                android:id="@+id/category2"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_alignLeft="@+id/category1"
+                android:layout_alignStart="@+id/category1"
+                android:layout_below="@+id/category1"
+                android:layout_toLeftOf="@+id/MovieBox"
+                android:layout_toStartOf="@+id/MovieBox"
+                android:inputType="text"
+                android:onClick="onCategoryClick"
+                android:text="Tv Shows" />
+
+            <Button
+                android:id="@+id/category1"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_alignLeft="@+id/category0"
+                android:layout_alignStart="@+id/category0"
+                android:layout_below="@+id/category0"
+                android:layout_toLeftOf="@+id/bookBox"
+                android:layout_toStartOf="@+id/bookBox"
+                android:inputType="text"
+                android:onClick="onCategoryClick"
+                android:text="Movies" />
+
+            <CheckBox
+                android:id="@+id/MovieBox"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_alignBottom="@+id/category1"
+                android:layout_below="@+id/category0"
+                android:layout_toEndOf="@+id/category0"
+                android:layout_toRightOf="@+id/category0"
+                android:text="Choose" />
+
+            <CheckBox
+                android:id="@+id/TvShowBox"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_alignBottom="@+id/category2"
+                android:layout_below="@+id/category1"
+                android:layout_toEndOf="@+id/category2"
+                android:layout_toRightOf="@+id/category2"
+                android:text="Choose" />
+
+            <Button
+                android:id="@+id/category3"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_alignLeft="@+id/category2"
+                android:layout_alignStart="@+id/category2"
+                android:layout_below="@+id/category2"
+                android:layout_toLeftOf="@+id/TvShowBox"
+                android:layout_toStartOf="@+id/TvShowBox"
+                android:inputType="text"
+                android:onClick="onCategoryClick"
+                android:text="Websites" />
+
+            <CheckBox
+                android:id="@+id/WebsiteBox"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_alignBottom="@+id/category3"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/category2"
+                android:layout_toEndOf="@+id/category2"
+                android:layout_toRightOf="@+id/category2"
+                android:text="Choose" />
+
+            <Button
+                android:id="@+id/category5"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_alignLeft="@+id/category3"
+                android:layout_alignStart="@+id/category3"
+                android:layout_below="@+id/category3"
+                android:layout_toLeftOf="@+id/WebsiteBox"
+                android:layout_toStartOf="@+id/WebsiteBox"
+                android:inputType="text"
+                android:onClick="onCategoryClick"
+                android:text="Video Games" />
+
+            <CheckBox
+                android:id="@+id/VideoGamesBox"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_alignBottom="@+id/category5"
+                android:layout_below="@+id/category3"
+                android:layout_toEndOf="@+id/category5"
+                android:layout_toRightOf="@+id/category5"
+                android:text="Choose" />
+
+            <Button
+                android:id="@+id/category4"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_alignLeft="@+id/category5"
+                android:layout_alignStart="@+id/category5"
+                android:layout_below="@+id/category5"
+                android:layout_toLeftOf="@+id/VideoGamesBox"
+                android:layout_toStartOf="@+id/VideoGamesBox"
+                android:inputType="text"
+                android:onClick="onCategoryClick"
+                android:text="Music" />
+
+            <CheckBox
+                android:id="@+id/MusicBox"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_alignBottom="@+id/category4"
+                android:layout_below="@+id/VideoGamesBox"
+                android:layout_toEndOf="@+id/category4"
+                android:layout_toRightOf="@+id/category4"
+                android:text="Choose" />
+
+            <Button
+                android:id="@+id/category6"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_alignLeft="@id/category5"
+                android:layout_alignStart="@+id/category4"
+                android:layout_below="@+id/category4"
+                android:layout_toLeftOf="@+id/MusicBox"
+                android:layout_toStartOf="@+id/MusicBox"
+                android:inputType="text"
+                android:onClick="onCategoryClick"
+                android:text="Places" />
+
+            <CheckBox
+                android:id="@+id/PlaceBox"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_alignBottom="@+id/category6"
+                android:layout_below="@+id/MusicBox"
+                android:layout_toEndOf="@+id/category6"
+                android:layout_toRightOf="@+id/category6"
+                android:text="Choose" />
+
+            <Button
+                android:id="@+id/category7"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_alignLeft="@+id/category6"
+                android:layout_alignStart="@+id/category6"
+                android:layout_below="@+id/category6"
+                android:layout_toLeftOf="@+id/PlaceBox"
+                android:layout_toStartOf="@+id/PlaceBox"
+                android:inputType="text"
+                android:onClick="onCategoryClick"
+                android:text="Notes" />
+
+            <CheckBox
+                android:id="@+id/notesBox"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_alignBottom="@+id/category7"
+                android:layout_below="@+id/category6"
+                android:layout_toEndOf="@+id/category7"
+                android:layout_toRightOf="@+id/category7"
+                android:text="Choose" />
+        </RelativeLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

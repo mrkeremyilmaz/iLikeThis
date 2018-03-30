@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_blue_dark"
+    tools:context="com.example.kerem.ilikethis.AddItem">
+
+
+    <SearchView
+        android:id="@+id/addSearch"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@android:color/white"
+        android:iconifiedByDefault="false"
+        android:onClick="onClickSearch"
+        android:queryHint="Search for title to add automatically">
+
+        <requestFocus />
+    </SearchView>
+
+    <Button
+        android:id="@+id/addManualButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/addSearch"
+        android:layout_marginTop="5dp"
+        android:background="@android:color/white"
+        android:backgroundTint="@android:color/white"
+        android:inputType="text"
+        android:minWidth="@dimen/activity_horizontal_margin"
+        android:onClick="addItemManually"
+        android:text="Add Item's Details Manually" />
+
+    <ListView
+        android:id="@+id/myListView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/addManualButton"
+        android:layout_marginTop="5dp" />
+
+</RelativeLayout>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    tools:context="com.example.kerem.ilikethis.EditItemPlace">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/editInfo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:ems="50"
+                android:text="You can edit info:"
+                android:textColor="@android:color/white"
+                android:textSize="20dp" />
+
+            <EditText
+                android:id="@+id/placeTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/editInfo"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="20dp"
+                android:background="@android:color/white"
+                android:ems="20"
+                android:hint="Name of the place"
+                android:inputType="textPersonName"
+                android:minHeight="25dp" />
+
+            <EditText
+                android:id="@+id/placeAddress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/placeTitle"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="20dp"
+                android:background="@android:color/white"
+                android:ems="20"
+                android:hint="Address"
+                android:inputType="textPersonName"
+                android:minHeight="25dp" />
+
+            <EditText
+                android:id="@+id/placeWorkingHours"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/placeAddress"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="20dp"
+                android:background="@android:color/white"
+                android:ems="20"
+                android:hint="Working hours"
+                android:inputType="textPersonName"
+                android:minHeight="25dp" />
+
+            <EditText
+                android:id="@+id/placeTheme"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/placeWorkingHours"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="20dp"
+                android:background="@android:color/white"
+                android:ems="20"
+                android:hint="Theme"
+                android:inputType="textPersonName" />
+
+
+            <EditText
+                android:id="@+id/placeAdditionalNotes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/placeTheme"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="20dp"
+                android:background="@android:color/white"
+                android:ems="20"
+                android:hint="Additional Notes"
+                android:inputType="textMultiLine"
+                android:lines="6"
+                android:textAlignment="center" />
+
+            <Button
+                android:id="@+id/saveItemButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/placeAdditionalNotes"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:onClick="saveItem"
+                android:text="Save"
+                android:textSize="10dp" />
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

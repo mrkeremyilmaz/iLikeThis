@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_blue_dark"
+    tools:context="com.example.kerem.ilikethis.EditItemMovie">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/editInfo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:ems="50"
+                android:text="You can edit info:"
+                android:textColor="@android:color/white"
+                android:textSize="20dp" />
+
+            <EditText
+                android:id="@+id/movieTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/editInfo"
+                android:layout_marginLeft="150dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="20dp"
+                android:background="@android:color/white"
+                android:ems="15"
+                android:hint="Title"
+                android:inputType="textPersonName"
+                android:minHeight="25dp" />
+
+            <EditText
+                android:id="@+id/movieDirector"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/movieTitle"
+                android:layout_marginLeft="150dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="20dp"
+                android:background="@android:color/white"
+                android:ems="15"
+                android:hint="Director"
+                android:inputType="textPersonName"
+                android:minHeight="25dp" />
+
+            <EditText
+                android:id="@+id/movieCountry"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/movieDirector"
+                android:layout_marginLeft="150dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="20dp"
+                android:background="@android:color/white"
+                android:ems="15"
+                android:hint="Country"
+                android:inputType="textPersonName"
+                android:minHeight="25dp" />
+
+            <EditText
+                android:id="@+id/movieGenre"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/movieCountry"
+                android:layout_marginLeft="150dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="20dp"
+                android:background="@android:color/white"
+                android:ems="15"
+                android:hint="Genre"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/movieYear"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/movieGenre"
+                android:layout_marginLeft="150dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@android:color/white"
+                android:ems="15"
+                android:hint="Year"
+                android:inputType="textPersonName"
+                android:minHeight="25dp" />
+
+            <EditText
+                android:id="@+id/movieDuration"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/movieYear"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="20dp"
+                android:background="@android:color/white"
+                android:ems="20"
+                android:hint="Duration"
+                android:inputType="textPersonName"
+                android:minHeight="25dp" />
+
+
+            <EditText
+                android:id="@+id/movieCast1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/movieDuration"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@android:color/white"
+                android:ems="20"
+                android:hint="Cast 1"
+                android:inputType="textPersonName"
+                android:minHeight="25dp" />
+
+            <EditText
+                android:id="@+id/movieCast2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/movieCast1"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@android:color/white"
+                android:ems="20"
+                android:hint="Cast 2"
+                android:inputType="textPersonName"
+                android:minHeight="25dp" />
+
+            <EditText
+                android:id="@+id/movieCast3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/movieCast2"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@android:color/white"
+                android:ems="20"
+                android:hint="Cast 3"
+                android:inputType="textPersonName"
+                android:minHeight="25dp" />
+
+            <EditText
+                android:id="@+id/movieAdditionalNotes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/movieCast3"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@android:color/white"
+                android:ems="20"
+                android:hint="Additional Notes"
+                android:inputType="textMultiLine"
+                android:lines="3" />
+
+            <Button
+                android:id="@+id/saveItemButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/movieAdditionalNotes"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:onClick="saveItem"
+                android:text="Save"
+                android:textSize="10dp" />
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

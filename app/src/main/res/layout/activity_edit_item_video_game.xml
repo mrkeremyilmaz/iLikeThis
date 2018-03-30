@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_blue_dark"
+    tools:context="com.example.kerem.ilikethis.EditItemVideoGame">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/editInfo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:ems="50"
+                android:text="You can edit info:"
+                android:textColor="@android:color/white"
+                android:textSize="20dp" />
+
+            <EditText
+                android:id="@+id/VideoGameTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/editInfo"
+                android:layout_marginLeft="150dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="20dp"
+                android:background="@android:color/white"
+                android:ems="15"
+                android:hint="Title"
+                android:inputType="textPersonName"
+                android:minHeight="25dp" />
+
+            <EditText
+                android:id="@+id/VideoGameDeveloper"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/VideoGameTitle"
+                android:layout_marginLeft="150dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="20dp"
+                android:background="@android:color/white"
+                android:ems="15"
+                android:hint="Developer"
+                android:inputType="textPersonName"
+                android:minHeight="25dp" />
+
+            <EditText
+                android:id="@+id/VideoGameGenre"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/VideoGameDeveloper"
+                android:layout_marginLeft="150dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="20dp"
+                android:background="@android:color/white"
+                android:ems="15"
+                android:hint="Genre"
+                android:inputType="textPersonName"
+                android:minHeight="25dp" />
+
+            <EditText
+                android:id="@+id/VideoGameYear"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/VideoGameGenre"
+                android:layout_marginLeft="150dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="20dp"
+                android:background="@android:color/white"
+                android:ems="20"
+                android:hint="Year"
+                android:inputType="textPersonName"
+                android:minHeight="25dp" />
+
+            <EditText
+                android:id="@+id/VideoGameInfo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/VideoGameYear"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="20dp"
+                android:background="@android:color/white"
+                android:ems="20"
+                android:hint="Info (multiplayer/online/single)"
+                android:inputType="textPersonName"
+                android:minHeight="25dp" />
+
+            <EditText
+                android:id="@+id/VideoGameAdditionalNotes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/VideoGameInfo"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="20dp"
+                android:background="@android:color/white"
+                android:ems="20"
+                android:hint="Additional Notes"
+                android:inputType="textMultiLine"
+                android:lines="6"
+                android:textAlignment="center" />
+
+
+            <Button
+                android:id="@+id/saveItemButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/VideoGameAdditionalNotes"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:onClick="saveItem"
+                android:text="Save"
+                android:textSize="10dp" />
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

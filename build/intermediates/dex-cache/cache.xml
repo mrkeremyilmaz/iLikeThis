@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\.android\build-cache\fe7ccc25b348a2d0994bf0ba53feebf3ab237c8b\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ea4b54dcbfe5ac05efb0a314105f07258118d3a7">
+        <dex dex="C:\Users\User\Downloads\iLikeThisAndStud-working-v1-1405-0533\iLikeThisAndStud\app\build\intermediates\pre-dexed\debug\classes_82fa821af373c8474e224caf22d59f3550b7b849.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\.android\build-cache\4a009a20f7c3f2a1cb15423883a7d3527f551cd4\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="379d1834afa3c08f43be23a23b103053537b65b5">
+        <dex dex="C:\Users\User\Downloads\iLikeThisAndStud-working-v1-1405-0533\iLikeThisAndStud\app\build\intermediates\pre-dexed\debug\classes_429ce0b9b853235b008180a9909435a2e9c395a5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\.android\build-cache\0c919b0bb273cf59861091176496d8933d856b98\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="cc178928721f3222b3b06bdfbd9497378ccb9792">
+        <dex dex="C:\Users\User\Downloads\iLikeThisAndStud-working-v1-1405-0533\iLikeThisAndStud\app\build\intermediates\pre-dexed\debug\classes_bd92de74f0d1936c616e7e4897097bd0bc02bca4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\.android\build-cache\f7912063554b1882348cd1c5086193dbd787f6ce\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7a23185c9b1c100e7d1a32275017e4712e31c796">
+        <dex dex="C:\Users\User\Downloads\iLikeThisAndStud-working-v1-1405-0533\iLikeThisAndStud\app\build\intermediates\pre-dexed\debug\classes_7df7a9041e88af11aca8cd63d9a8393ae07ed0ee.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\.android\build-cache\f1cfe1aa9cb165999025ac71941b7438432bc9f5\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="294d49a66cc1238d9f7fd352136a45622fa98c0f">
+        <dex dex="C:\Users\User\Downloads\iLikeThisAndStud-working-v1-1405-0533\iLikeThisAndStud\app\build\intermediates\pre-dexed\debug\classes_387f50c3ee1b70ec99658432e87899f2dc65200b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\.android\build-cache\37f84248dee051998432cbdc8daf1ac0dd3728fb\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0dc8ab07eeceda5e99b305c8069765056b6e5c9d">
+        <dex dex="C:\Users\User\Downloads\iLikeThisAndStud-working-v1-1405-0533\iLikeThisAndStud\app\build\intermediates\pre-dexed\debug\classes_104fcffff58092737b5fce22f5d0e01bb09ff880.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\.android\build-cache\c6a6617c6dd66e42413a94266902b74268b2fb78\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4caf75b2cfb7ec6e80a57d0ee64fc102ad3578b8">
+        <dex dex="C:\Users\User\Downloads\iLikeThisAndStud-working-v1-1405-0533\iLikeThisAndStud\app\build\intermediates\pre-dexed\debug\classes_0bcb28b7dc63d1d4da6157810871cf9265c41e3e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\.android\build-cache\8d3cf6a7dfc59f740ae8f943ba7c3153aaa01fb5\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6f65c144283b31b4b9a70e6e7aa4c4a1c897d4b8">
+        <dex dex="C:\Users\User\Downloads\iLikeThisAndStud-working-v1-1405-0533\iLikeThisAndStud\app\build\intermediates\pre-dexed\debug\classes_2f63a8988f72301439a32f0465798c22fbfd61e5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\Downloads\iLikeThisAndStud-working-v1-1405-0533\iLikeThisAndStud\app\libs\mysql-connector.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7b9bfb6c4e4885660378a9c13330915c321f6cca">
+        <dex dex="C:\Users\User\Downloads\iLikeThisAndStud-working-v1-1405-0533\iLikeThisAndStud\app\build\intermediates\pre-dexed\debug\mysql-connector_94b44cb058bd4b365a8869049a97067dd75bb22d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\.android\build-cache\050c7708e8e5935d4207111bf9956ebc64147032\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4ef8ab5fee042023018249474bc93bd4b2b9c17e">
+        <dex dex="C:\Users\User\Downloads\iLikeThisAndStud-working-v1-1405-0533\iLikeThisAndStud\app\build\intermediates\pre-dexed\debug\classes_5f977b49099ecab8fb9ca30e76856e84da82c1e9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\.android\build-cache\b0eb909c1c0c10f89122c0e22f70a6558da34257\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="42df48c7305b08b14fa0e84561091b0c24d70d26">
+        <dex dex="C:\Users\User\Downloads\iLikeThisAndStud-working-v1-1405-0533\iLikeThisAndStud\app\build\intermediates\pre-dexed\debug\classes_3aef6dab96327001f1e4b28b85a3ab03acdb71c4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\Downloads\iLikeThisAndStud-working-v1-1405-0533\iLikeThisAndStud\app\libs\ilikethismodelv2.4.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ced254a5f23aab57aff3cc85b1ba08f8397d7756">
+        <dex dex="C:\Users\User\Downloads\iLikeThisAndStud-working-v1-1405-0533\iLikeThisAndStud\app\build\intermediates\pre-dexed\debug\ilikethismodelv2.4_86f17def4ead74d95dfa24e07889e8446d52f432.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\.android\build-cache\803c59d808bac7a783abb2f6889b8e8065995b6f\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="817b9101192f2fd6dc0fd8cd522d8f4a1a75fcdc">
+        <dex dex="C:\Users\User\Downloads\iLikeThisAndStud-working-v1-1405-0533\iLikeThisAndStud\app\build\intermediates\pre-dexed\debug\classes_bad77068c66ac718504b92fd29f1315f55a7fcda.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\.android\build-cache\c75d2d3633ea60e8d10f87b82b211da08a97150c\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1941832901fc4e7a93300b53762e9f65d7650b99">
+        <dex dex="C:\Users\User\Downloads\iLikeThisAndStud-working-v1-1405-0533\iLikeThisAndStud\app\build\intermediates\pre-dexed\debug\classes_e3b3cb09ec5c724ec3045d73f69d3e315a07f4d4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\.android\build-cache\2ba5019b35eb90d1c2f6960b5da0c37859ff2511\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="5289e799a43a64c4137d109bf992e10a2f952aa3">
+        <dex dex="C:\Users\User\Downloads\iLikeThisAndStud-working-v1-1405-0533\iLikeThisAndStud\app\build\intermediates\pre-dexed\debug\classes_800377be7a07ae26c6aa59ddb6f50a957a44d383.jar" />
+    </item>
+
+</items>

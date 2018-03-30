@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_blue_dark"
+    tools:context="com.example.kerem.ilikethis.ShowSharedActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/category0"
+                android:layout_width="350dp"
+                android:layout_height="60dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:onClick="onSharedCategoryClick"
+                android:text="Books" />
+
+            <Button
+                android:id="@+id/category1"
+                android:layout_width="350dp"
+                android:layout_height="60dp"
+                android:layout_below="@+id/category0"
+                android:layout_centerHorizontal="true"
+                android:onClick="onSharedCategoryClick"
+                android:text="Movies" />
+
+            <Button
+                android:id="@+id/category2"
+                android:layout_width="350dp"
+                android:layout_height="60dp"
+                android:layout_alignLeft="@+id/category1"
+                android:layout_alignStart="@+id/category1"
+                android:layout_below="@+id/category1"
+                android:onClick="onSharedCategoryClick"
+                android:text="Music" />
+
+            <Button
+                android:id="@+id/category3"
+                android:layout_width="350dp"
+                android:layout_height="60dp"
+                android:layout_below="@+id/category2"
+                android:layout_centerHorizontal="true"
+                android:onClick="onSharedCategoryClick"
+                android:text="Notes" />
+
+            <Button
+                android:id="@+id/category4"
+                android:layout_width="350dp"
+                android:layout_height="60dp"
+                android:layout_below="@+id/category3"
+                android:layout_centerHorizontal="true"
+                android:onClick="onSharedCategoryClick"
+                android:text="Places" />
+
+            <Button
+                android:id="@+id/category5"
+                android:layout_width="350dp"
+                android:layout_height="60dp"
+                android:layout_below="@+id/category4"
+                android:layout_centerHorizontal="true"
+                android:onClick="onSharedCategoryClick"
+                android:text="Tv Shows" />
+
+            <Button
+                android:id="@+id/category6"
+                android:layout_width="350dp"
+                android:layout_height="60dp"
+                android:layout_below="@+id/category5"
+                android:layout_centerHorizontal="true"
+                android:onClick="onSharedCategoryClick"
+                android:text="Video Games" />
+
+            <Button
+                android:id="@+id/category7"
+                android:layout_width="350dp"
+                android:layout_height="60dp"
+                android:layout_below="@+id/category6"
+                android:layout_centerHorizontal="true"
+                android:onClick="onSharedCategoryClick"
+                android:text="Websites" />
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">iLikeThis</string>
+    <string name="howToHomepageText">
+        This is iLikeThis homepage. You can go to share, profile or add pages from here or you can see your lists in a category by clicking on the category button.
+        \n\n\n
+        The category buttons take you to your lists in that category. From there you can see your items by clicking on your lists.
+        \n\n\n
+        The share button, on the bottom left, takes you to share page where you can choose categories, lists or items you would like to share. In the category sharing page, press \'Share\' on the action bar to get to sharing options. Send your friends the text you get so that they can use it to see your shared items.
+        \n\n\n
+        The profile page button, on the bottom middle, takes you to your profile page.
+        \n\n\n
+        The add button, on the bottom right, takes you to a page where you can add a list. You can type a list name and click a category button to add a list to that category, named what you typed.
+    </string>
+    <string name="howToAddItemText">
+        To add item, press the \'Add Item\' button in the menu. You can type in search section to search for an item that is already in the database or you can press add manually button to add your own item.
+    </string>
+</resources>
